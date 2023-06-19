@@ -14,8 +14,12 @@
         <div class="container">
             <div class="nav-row">
                 <a href="/" class="logo"><strong>Freelancer</strong> portfolio</a>
+                <button class="btn-dark__mode btn-dark__mode--active">
+                    <img src="./css/icon/Sun.png" alt="" class="dark-mode__icon">
+                    <img src="./css/icon/Moon.svg" alt="" class="dark-mode__icon">
+                </button>
                 <ul class="nav-list">
-                    <li class="nav-list__item"><a class="nav-list__link nav-list__link--active"
+                    <li class="nav-list__item"><a class="nav-list__link "
                             href="./index.html">Projects</a></li>
                     <li class="nav-list__item"><a class="nav-list__link" href="./contacts.html">Contacts</a></li>
                     <li class="nav-list__item"><a class="nav-list__link" href="./skills.html">Skills</a></li>
@@ -27,9 +31,10 @@
 
 
     <header class="header">
-        <div class="back">  <video autoplay loop muted plays-inline class="back-video">
-            <source src="/home/aswebtech/Downloads/pexels-pressmaster-3130182-3840x2160-30fps.mp4" type="video/mp4">
+        <div class="back"> <video autoplay loop muted plays-inline class="back-video">
+            <source class="back-video" type="video/mp4">
             <!-- https://joy1.videvo.net/videvo_files/video/free/video0468/large_watermarked/_import_6166efa0964f32.44329417_preview.mp4 -->
+            <!-- src="/home/aswebtech/Downloads/pexels-pressmaster-3130182-3840x2160-30fps.mp4"  -->
         </video></div>
       
         <div class="header__container">
@@ -115,6 +120,8 @@
             </div>
         </div>
     </footer>
+    <script src="./js/main.js"></script>
+
 </body>
 
 </html>
